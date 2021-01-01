@@ -1,8 +1,20 @@
 <template>
-  <h1>项目初始化</h1>
+  <div id="app">
+      <el-button type="primary">el-button</el-button>
+  </div>
   <router-view/>
 </template>
 
-<style lang="less">
+<script>
 
+export default {
+  name: 'App'
+}
+</script>
+
+<style lang="less">
+#app {
+  text-align: center;
+  margin-top: 60px;
+}
 </style>
