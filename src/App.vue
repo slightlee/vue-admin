@@ -1,7 +1,4 @@
 <template>
-  <div id="app">
-      <el-button type="primary">el-button</el-button>
-  </div>
   <router-view/>
 </template>
 
@@ -13,8 +10,5 @@ export default {
 </script>
 
 <style lang="less">
-#app {
-  text-align: center;
-  margin-top: 60px;
-}
+
 </style>
